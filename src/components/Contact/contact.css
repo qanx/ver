@@ -1,0 +1,142 @@
+
+.contactCon{
+    /* box-sizing: border-box;
+    margin: 0;
+    padding: 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+    /* background-color: aquamarine; */
+    
+}
+
+.contactCon_left{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 90%;
+    border-right: 1px solid rgb(138, 138, 138);
+}
+.contactCon_right{
+    /* background-color: rgb(45, 189, 189); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    flex-direction: column;
+    height: 80%;
+    width: 90%;
+
+}
+.ri{
+    margin-bottom: 0.7rem;
+    width: 200px;
+}
+.ri > i{
+    padding-right: .9rem;
+}
+input{
+    border:none;
+    border-left: 5px solid bisque;
+    margin-bottom:.7rem ;
+    max-width: 400px;
+    background-color: rgb(247, 241, 224);
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 0.2rem;
+    width: 280px
+}
+.contactCon_left_Message{
+    height: 250px;
+}
+
+.social-media-list {
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .social-media-list li a {
+    color: #fff;
+  }
+  
+  .social-media-list li {
+    position: relative; 
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(27,27,27);
+    cursor: pointer; 
+    transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px #fff;
+    transition: all .2s ease-in-out;
+  }
+  
+  .social-media-list li:hover {
+    background-color: #fff; 
+  }
+  
+  .social-media-list li:hover:after {
+    opacity: 1;  
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+  }
+  
+  .social-media-list li:hover a {
+    color: #000;
+  }
+  
+  @media (max-width: 700px) {
+
+    
+.contactCon{
+    /* box-sizing: border-box;
+    margin: 0;
+    padding: 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+    flex-wrap: wrap;
+    /* background-color: aquamarine; */
+    
+}
+
+.contactCon_left{
+    height: auto;
+    border-right:none;
+
+    
+}
+.contactCon_right{
+    border-top: 1px solid rgb(138, 138, 138);
+    padding-top: 50px;
+    height: auto;
+    border-right:none;
+}
+  }

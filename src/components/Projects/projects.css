@@ -1,0 +1,50 @@
+
+.projectsContainer{
+    font-family: "Rokkitt", serif;
+  
+    margin-top: 3rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.projectsContainer_title{
+    padding: 2rem 0rem;
+}
+.projects{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.project{
+    
+    border: 1px solid black;
+    /* height: 80%; */
+    /* min-width: 25%; */
+    width: 300px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.project_img{
+    height: 200px;
+    width: 300px;
+}
+.project_img img{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
