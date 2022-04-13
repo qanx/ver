@@ -40,19 +40,20 @@
 .ri > i{
     padding-right: .9rem;
 }
-input{
+input,textarea{
     border:none;
     border-left: 5px solid bisque;
     margin-bottom:.7rem ;
     max-width: 400px;
     background-color: rgb(247, 241, 224);
-    color: #fff;
+    color: rgb(0, 0, 0);
     letter-spacing: 1px;
     border-radius: 0.2rem;
     width: 280px
 }
 .contactCon_left_Message{
     height: 250px;
+    word-wrap: normal;
 }
 
 .social-media-list {
@@ -126,7 +127,24 @@ input{
     /* background-color: aquamarine; */
     
 }
-
+.css-button{
+  margin: 0.3rem 1rem;
+  padding: 0 1rem;
+  font-family: Courier New;
+  color: #000000;
+  font-size: 18px;
+  border-radius: 0px;
+  border: 1px #c0c0c0 solid;
+  background-color: #ffffff;
+  text-shadow: 1px 1px 0px #000000;
+  /* box-shadow: inset 1px 1px 2px 0px #bbdaf7; */
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+input,textarea {
+  height: 30px;
+}
 .contactCon_left{
     height: auto;
     border-right:none;
