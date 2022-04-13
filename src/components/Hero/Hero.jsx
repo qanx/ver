@@ -8,14 +8,12 @@ function Hero() {
         <div className="Hero_left_title">Real Coding</div>
         <div className="Hero_left_prograph">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
-            praesentium laborum debitis itaque consectetur, fugiat dolorum
-            molestias ipsam assumenda eum quidem nihil aliquam, cupiditate a,
-            repudiandae qui nemo perferendis corrupti!
+          Hello ! 
+          I'm web developer  "MERN Stack"
           </p>
         </div>
         <div className="Hero_left_buttons">
-          <a onClick={()=> window.location.replace("/projects")} className="css-button">
+          <a onClick={()=>window.open("https://docs.google.com/document/d/1WhjexzqDB6VlpCEsYmtTnEqR3qG8deYkTuvkGFxgQec/edit?usp=sharing")} className="css-button">
             <span className="css-button-icon">
               <svg
                 width="16"
@@ -31,7 +29,7 @@ function Hero() {
                 />
               </svg>
             </span>
-            <span className="css-button-text">projects</span>
+            <span className="css-button-text">my resume</span>
           </a>
 
           <a onClick={()=> window.location.replace("/contact")} className="css-button">

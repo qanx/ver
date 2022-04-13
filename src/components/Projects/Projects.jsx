@@ -34,7 +34,7 @@ function Projects() {
                 />
               </svg>
             </span>
-            <span class="css-button-text">contact</span>
+            <span class="css-button-text">its alive</span>
           </a>
         </div>
       </div>
@@ -67,7 +67,7 @@ function Projects() {
                 />
               </svg>
             </span>
-            <span class="css-button-text">contact</span>
+            <span class="css-button-text">github</span>
           </a>
         </div>
       </div>
@@ -78,12 +78,12 @@ function Projects() {
         <div className="project_text">
           <h3> this one Also</h3>
           <p>
-            using only pure css i was able to build this website,
-            I also learend alot during especially when it comes to Hosting and  domain stuff  
+            using only pure css building this website,
+            and of course there will be new projects.
           </p>
         </div>
         <div className="project_butoon">
-          <a class="css-button">
+          <a onClick={()=>window.open("https://github.com/qanx/ver")} class="css-button">
             <span class="css-button-icon">
               <svg
                 width="16"
@@ -99,7 +99,7 @@ function Projects() {
                 />
               </svg>
             </span>
-            <span class="css-button-text">contact</span>
+            <span class="css-button-text">github</span>
           </a>
         </div>
       </div>

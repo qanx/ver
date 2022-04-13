@@ -53,9 +53,13 @@
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
 .project_img img{
-    height: auto;
-    width: 100%;
+    
+    position: relative;
+    max-height: 300px;
+    object-position: center;
     object-fit: cover;
+    overflow: hidden;
+    
 }
 
  
